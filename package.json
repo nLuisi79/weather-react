@@ -1,0 +1,32 @@
+{
+  "name": "weather_NL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --colors --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-sparklines": "^1.7.0"
+  }
+}
